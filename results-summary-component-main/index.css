@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'Hanken Grotesk',Arial, Helvetica, sans-serif;
+    src: url('/results-summary-component-main/assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
+}
+body{
+    font-family: 'Hanken Grotesk',Arial, Helvetica, sans-serif;
+}
+
+.attribution{
+    position: fixed;
+    bottom: 0;
+    padding:7px;
+    text-align: center;
+    width: 100%;
+}
+
+
+.big{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 500px;
+    width: 700px;
+    border: solid 1px transparent;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.mini1{
+    border: 1px solid transparent;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    border-radius: 20px;
+    background:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    box-shadow: -1px -1px 10px blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini2{
+    border: 1px solid transparent;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px black;
+}
+
+.box{
+    border :solid 1px;
+    border-radius: 20px;
+    width: 250px;
+    height: 60px;
+    margin: 5px;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#p{
+    margin: 20px; 
+    align-self: flex-start;
+    font-size: larger;
+}
+
+
+#Reaction{
+    border: transparent;
+    background-color:   hsla(19, 90%, 70%, 0.199);
+    
+}
+
+#Memory{
+    border: transparent;
+    background-color:  hsl(52, 61%, 86%);
+}
+
+#Verbal{
+    border: transparent;
+    background-color:   hsla(144, 69%, 85%, 0.575);
+}
+
+#Visual{
+    border: transparent;
+    background-color: hsla(223, 74%, 85%, 0.527);
+}
+
+
+#btn{
+    border: solid hsl(224, 30%, 27%);
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 15px;
+    background-color:hsl(224, 30%, 27%);
+    color: whitesmoke;
+}
+
+#btn:hover{
+    border: transparent;
+    background:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    transition:all 0.7s;
+}
+
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border:1px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    top: -60px;
+    border: transparent;
+    background:linear-gradient( hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+
+#center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 80px;
+    color: whitesmoke;
+}
+
+#bottom{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(255, 255, 255, 0.521);
+}
+
+
+#result{
+    position: absolute;
+    bottom:480px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.829);
+}
+
+#Great{
+    position:absolute ;
+    top:225px;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+
+#text{
+    position: relative;
+    color:rgba(255, 255, 255, 0.623);
+    top: 220px;
+    text-align: center;
+
+}
